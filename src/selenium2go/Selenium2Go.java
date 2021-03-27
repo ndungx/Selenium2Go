@@ -32,15 +32,11 @@ public class Selenium2Go {
 
         //đi tìm ô search
         WebElement searchBox = myBrowser.findElement(By.id("search"));
-        //đưa keyword: chúng ta của hiên tại
+        //đưa keyword: "chúng ta của hiên tại"
         searchBox.sendKeys("Chúng ta của hiện tại");
 
         WebElement searchButton = myBrowser.findElement(By.id("search-icon-legacy"));
         searchButton.click();
-
-//        WebElement videoTitleOnClick = myBrowser.findElement(By.id("video-title"));
-//        WebElement videoTitle = myBrowser.findElement(By.linkText("https://www.youtube.com/watch?v=psZ1g9fMfeo"));
-//        videoTitleOnClick.click();
     }
 
 }
