@@ -6,6 +6,6 @@ Demo automated action in Google Chrome
 ## Instruction:
   * Copy *client-combined-3.141.59-sources.jar* in selenium-java folder to your project folder
   * Copy 5 library in /libs of selenium-java folder to your project folder: *byte-buddy-1.8.15.jar*, *guava-25.0-jre.jar*, *okhttp-3.11.0.jar*, *okio-1.14.0.jar*, *commons-exec-1.3.jar*
-  * Copy chromedriver.exe to your project folder
+  * Copy *chromedriver.exe* to your project folder
   * Add all library you have copied to your project folder to project in your IDE
   * Run Project
