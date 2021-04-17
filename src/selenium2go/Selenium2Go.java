@@ -38,8 +38,5 @@ public class Selenium2Go {
         WebElement searchButton = myBrowser.findElement(By.id("search-icon-legacy"));
         searchButton.click();
         
-        String channleLink = "https://www.youtube.com/channel/UClyA28-01x4z60eWQ2kiNbA";
-        
     }
-
 }
